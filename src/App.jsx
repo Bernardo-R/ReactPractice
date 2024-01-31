@@ -48,12 +48,15 @@ function App() {
     //   </div>
     // </div> */}
       {/* <FetchingWithUseEffect /> */}
+
       <ChildComponent name="Jose" lastName="Rosario" />
       <ChildToParent callback={callThisFromChildComponent} />
       {/*pass the function to the child component*/}
+
       {/*CTCDisplay shows dice value, CTCDice has a function picks a random number and then we set it as setNumber */}
       <ChildToChildDisplay number={number} />
       {/*display the value of number*/}
+
       <ChildToChildDice callback={setNumber} />
       {/*pass the function to set the value of number*/}
 
