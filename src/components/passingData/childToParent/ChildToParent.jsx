@@ -1,7 +1,7 @@
 import React from "react";
 
 const ChildToParent = ({ callback }) => {
-  const data = 1234567;
+  const data = 123;
 
   return (
     <div>
