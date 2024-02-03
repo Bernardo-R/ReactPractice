@@ -5,6 +5,7 @@ const Welcome = (props) => {
   console.log(employees);
   return (
     <div>
+      <h1>Welcome to the Employee Management System</h1>
       {employees && employees.length > 0 && (
         <div>
           <h1>Employee List:</h1>
